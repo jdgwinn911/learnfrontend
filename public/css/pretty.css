@@ -14,6 +14,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     z-index: 2;
+    margin-left: -9%;
+    font-family: sans-serif;
 }
 
 .words .box{
@@ -116,6 +118,13 @@ body{
 
 .words .box:hover:after{
     filter: invert(0);
+}
+
+h1{
+    font-family: sans-serif;
+    margin-bottom: 40%;
+    font-style: italic;
+    color: fuchsia;
 }
 
 
